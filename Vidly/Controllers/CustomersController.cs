@@ -26,10 +26,10 @@ namespace Vidly.Controllers
 
         private IEnumerable<Customer> GetCustomers()
         {
-            return new List<Customer>
-            {
-                new Customer { Id = 1, Name = "John Smith" },
-                new Customer { Id = 2, Name = "Mary Williams" }
+            return new List<Customer> {
+                new Customer { Id = 1, Name = "Felipe" },
+                new Customer { Id = 2, Name = "Ernesto" },
+                new Customer { Id = 3, Name = "Alberto" }
             };
         }
     }
